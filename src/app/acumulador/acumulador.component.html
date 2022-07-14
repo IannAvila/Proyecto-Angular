@@ -1,0 +1,17 @@
+<h1>
+  {{titulo}}
+</h1>
+
+  <button (click)="sumar()">+1</button>
+  <span>{{numero}}</span>
+  <button (click)="restar()">-1</button>
+<br>
+<br>
+  <button (click)="acumulador(+1)">+1</button>
+  <span>{{numero}}</span>
+  <button (click)="acumulador(-1)">-1</button>
+<br>
+<br>
+  <button (click)="acumulador(+base)">+{{base}}</button>
+  <span>{{numero}}</span>
+  <button (click)="acumulador(-base)">-{{base}}</button>
